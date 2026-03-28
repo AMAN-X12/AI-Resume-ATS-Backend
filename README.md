@@ -1,8 +1,18 @@
+
+---
+title: AI Resume Screener
+emoji: ⚡
+colorFrom: purple
+colorTo: green
+sdk: docker
+pinned: false
+license: mit
+---
 An AI-based Applicant Tracking System (ATS) backend that processes, parses, and scores candidate resumes against job requirements using Natural Language Processing (NLP) and vector embeddings.
 
 This repository contains the FastAPI server, MongoDB data management (using session IDs to keep candidate data secure and isolated during API calls), and the Dockerized AI pipeline. It is designed to make resume screening effortless for HR teams and industries by using AI to generate clear, detailed candidate evaluations.
 
- This backend is highly decoupled from the frontend. You can find the frontend interface in the repository "AI Resume Frontend".Additionaly Documentation Strings (DOC Strings) are also provided in functions where i think there's a need. 
+ This backend is highly decoupled from the frontend. You can find the frontend interface in the repository "AI Resume Frontend".Additionaly Documentation Strings (DOC Strings) are also provided in functions where i think there's a need.
 
  For the live demo , kindly do visit the "AI Resume Frontend" repository you will gonna find the link of live demo there.
 
@@ -119,3 +129,5 @@ curl -X POST http://localhost:8000/filter \
 
 In Case of any changes that you find or any error that un-intentionally comes or for any improvement kindly email at (sardaramaan13@gmail.com)
 
+
+Check out the configuration reference at https://huggingface.co/docs/hub/spaces-config-reference
